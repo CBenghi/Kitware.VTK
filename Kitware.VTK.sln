@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30021.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitware.VTK", "Kitware.VTK\Kitware.VTK.csproj", "{2CBF84A4-7301-4915-881F-5921AF4BB328}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolumeRendering", "Examples\VolumeRendering\VolumeRendering.csproj", "{EECB0EA5-0227-46A8-9A72-7635C512EB41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wikipedia", "Examples\Wikipedia\Wikipedia.csproj", "{B48C1EE5-28E8-41D7-BEB0-53B2EAD15060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryProcessing", "GeometryProcessing\GeometryProcessing.csproj", "{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,18 @@ Global
 		{B48C1EE5-28E8-41D7-BEB0-53B2EAD15060}.Release|Mixed Platforms.Build.0 = Release|x64
 		{B48C1EE5-28E8-41D7-BEB0-53B2EAD15060}.Release|x64.ActiveCfg = Release|x64
 		{B48C1EE5-28E8-41D7-BEB0-53B2EAD15060}.Release|x64.Build.0 = Release|x64
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|x64.ActiveCfg = Debug|x64
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Debug|x64.Build.0 = Debug|x64
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|x64.ActiveCfg = Release|x64
+		{6C864DDB-F48A-45AE-BBFD-F3914EB9B7A0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,5 +227,8 @@ Global
 		{B35A27FB-4F20-41A0-BF67-ED91D3491917} = {C7A15D05-48EB-415B-BB87-4982B75CCE4E}
 		{EECB0EA5-0227-46A8-9A72-7635C512EB41} = {C7A15D05-48EB-415B-BB87-4982B75CCE4E}
 		{B48C1EE5-28E8-41D7-BEB0-53B2EAD15060} = {C7A15D05-48EB-415B-BB87-4982B75CCE4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E4DD582-F803-4B98-918C-4A771C0BC8D2}
 	EndGlobalSection
 EndGlobal
